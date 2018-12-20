@@ -32,6 +32,7 @@ def getStation(station, line):
 
     print("")
 
+
 def formatOutput(train, line):
 
     #set number of prints
