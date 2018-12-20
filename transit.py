@@ -53,7 +53,6 @@ def formatOutput(train, line):
             totalPrinted += 1
         if totalPrinted == NUMBER_OF_STATIONS:
             break
-
     return output
 
 
@@ -74,7 +73,7 @@ def main():
         getStation(secondAve, "")
         getStation(Bleecker, "6")
         time.sleep(5)
-        #clear()
+        clear()
         put_cursor(0, 0)
 
 
